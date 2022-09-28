@@ -15,6 +15,22 @@
     <h1>Insects by Chandrakanth Reddy Chinthakuntla</h1>
 </head>
 <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class = "navbar-brand" href = "insects.html">Interesting Insects</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            Navbar toggler
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class = "navbar-nav mr-auto">
+                <li class = "nav-link">
+                    <a class="nav-link" href="basic.html">Link to basic.html</a>
+                </li>
+                <li class = "nav-link">
+                    <a class="nav-link" href="advanced.html">Link to advanced.html</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class = "container">
         <div class = "row">
             <div class = "col-sm-2">c</div>
@@ -121,5 +137,31 @@
             <button type="button" class="btn btn-danger">Antlions</button>
         </div>
     </div>
+    <div class = "dropdown">
+        <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown">
+            Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="basic.html">Link to basic.html</a>
+            <a class="dropdown-item" href="advanced.html">Link to advanced.html</a>
+        </div>
+    </div>
+
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputInsect" class="form-label">Insect</label>
+          <input type="text" class="form-control" id="exampleInputInsect">
+        </div>
+        <div class = "form-check">
+            <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
 </body>
 </html>
